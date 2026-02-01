@@ -90,4 +90,4 @@ ares_os/
 
 ---
 
-**AresOS v1.0** - Built with ⚡ by Antigravity
+**AresOS v1.0** - school project
