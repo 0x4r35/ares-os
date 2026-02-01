@@ -9,7 +9,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=35&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Welcome+to+AresOS;The+Future+is+Now;Hack+the+Planet+%F0%9F%8C%90" alt="Typing SVG" />
 </div>
 
----
+
 
 ## ⚡ About
 
@@ -96,7 +96,8 @@ ares-os/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+
+
 
 <div align="center">
   
@@ -107,3 +108,6 @@ Made with 💚 by [@0x4r35](https://github.com/0x4r35)
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
 
 </div>
+
+**AresOS v1.0** - school project
+
