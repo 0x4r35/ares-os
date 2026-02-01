@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AresOS v1.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="crt-overlay"></div>
+    <div id="scanline"></div>
+    <canvas id="matrix-bg"></canvas>
+
+    <div id="boot-screen">
+        <div id="boot-text"></div>
+    </div>
+
+    <div id="desktop" class="hidden">
+        <div id="desktop-icons">
+            <!-- Icons injected by JS -->
+        </div>
+
+        <div id="window-area">
+            <!-- Windows injected by JS -->
+        </div>
+
+        <div id="start-menu" class="hidden">
+            <div class="start-header">
+                <span class="start-logo">⚡</span>
+                <span class="start-title">AresOS v2.0</span>
+            </div>
+            <div class="start-apps">
+                <!-- Apps injected by JS -->
+            </div>
+            <div class="start-footer">
+                <button class="start-footer-btn" onclick="openWindow('Settings', 'settings')">⚙️ Settings</button>
+                <button class="start-footer-btn" onclick="location.reload()">🔄 Reboot</button>
+            </div>
+        </div>
+
+        <div id="notifications">
+            <!-- Notifications injected by JS -->
+        </div>
+
+        <div id="taskbar">
+            <button id="start-btn" onclick="toggleStartMenu()">ARES_OS</button>
+            <div id="taskbar-apps">
+                <!-- Running apps -->
+            </div>
+            <div id="taskbar-right">
+                <span id="network-status">📶</span>
+                <span id="battery-status">🔋</span>
+                <div id="clock">00:00:00</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="matrix.js"></script>
+</body>
+
+</html>
